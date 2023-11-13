@@ -28,7 +28,7 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-4xl font-bold">Food-Corner</h1>
+                            <h1 className="text-4xl font-bold text-gray-300">Food-Corner</h1>
                             <p className="py-6">Food-Corner is a online food order website where user can order different type of food. Admin can add/edit food/food details. User can add menu to favourite list item section.</p>
                             <div className='flex items-center gap-3'>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/Food-Corner-Client" target='_blank'>Client </a></p>
@@ -47,7 +47,7 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-4xl font-bold">E-ExamPro</h1>
+                            <h1 className="text-4xl font-bold text-gray-300">E-ExamPro</h1>
                             <p> ( Team Project )</p>
                             <p className="py-6">E-ExamPro is a online Exam Platform. Student can perticipate exam in online by this website. Instructor can add question paper.</p>
                             <div className='flex items-center gap-3'>
@@ -68,7 +68,7 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-4xl font-bold">Car Toy Store</h1>
+                            <h1 className="text-4xl font-bold text-gray-300">Car Toy Store</h1>
                             <p className="py-6">Car Toy Store is a toy store website where seller can add toy, and admin manage the website.</p>
                             <div className='flex items-center gap-3'>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/Car-Toy-Store" target='_blank'>Client </a></p>
@@ -87,7 +87,7 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-4xl font-bold">Capture Camp</h1>
+                            <h1 className="text-4xl font-bold text-gray-300">Capture Camp</h1>
                             <p className="py-6">Capture Camp is a photography course website, where student can enroll in any course.</p>
                             <div className='flex items-center gap-3'>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/React-Project-Capture-Camp-Client" target='_blank'>Client </a></p>
@@ -106,7 +106,7 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-4xl font-bold">BD Food-Recipe</h1>
+                            <h1 className="text-4xl text-gray-300 font-bold">BD Food-Recipe</h1>
                             <p className="py-6">BD Food Recipe is a recipe website where user can find any recipe.</p>
                             <div className='flex items-center gap-3'>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/BD-Food-Recipe" target='_blank'>Client </a></p>

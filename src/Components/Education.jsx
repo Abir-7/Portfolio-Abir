@@ -19,7 +19,7 @@ const Education = ({person2}) => {
             <div className='flex justify-center ' data-aos="fade-up">
              <Tilt> <img className=" mas mask-hexagon-2 " src={person2} width={'300px'} /></Tilt>
             </div>
-            <div className=' text-lg  text-justify mx-3' data-aos="fade-up">
+            <div className=' text-lg  text-justify text-gray-300 mx-3' data-aos="fade-up">
               I am Md. Tazwarul Islam Abir, Passionate and motivated junior MERN stack developer with a strong desire to learn and grow in a dynamic and collaborative environment. Committed to delivering high-quality code and exceptional user experiences, I aim to utilize my skills in React, Express, MongoDB, and Node.js to drive impactful results and contribute to the success of the team.
             </div>
           </div>
@@ -27,36 +27,36 @@ const Education = ({person2}) => {
           <div className=' grid gap-4'>
 
             <div tabIndex={0} className="collapse collapse-open border border-base-300 bg-base-200 hover:bg-base-300 transition-all hover:-translate-y-1 duration-500" data-aos="fade-up">
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title text-xl font-medium text-gray-300">
                 Bachelor of Science (B.Sc):
               </div>
               <div className="collapse-content">
-                <p>Institute: <span className='text-white'>College of Business Science & Technology (National University Affiliated),
+                <p>Institute: <span className='text-gray-300'>College of Business Science & Technology (National University Affiliated),
                   Mymensingh.</span></p>
-                <p>Subject: <span className='text-white'>Computer Science & Engineering (CSE)</span></p>
-                <p> CGPA: <span className='text-white'>3.06</span></p>
+                <p>Subject: <span className='text-gray-300'>Computer Science & Engineering (CSE)</span></p>
+                <p> CGPA: <span className='text-gray-300'>3.06</span></p>
               </div>
             </div>
 
             <div tabIndex={0} className="collapse collapse-open border border-base-300 bg-base-200 hover:bg-base-300 transition-all hover:-translate-y-1 duration-500" data-aos="fade-up">
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title text-gray-300 text-xl font-medium">
                 Higher Secondary School Certificate (HSC):
               </div>
               <div className="collapse-content">
-                <p>Institute: <span className='text-white'>Royal Media College,Mymensingh-RMC</span></p>
-                <p>Subject:  <span className='text-white'>Science</span></p>
-                <p> GPA: <span className='text-white'>4.42</span></p>
+                <p>Institute: <span className='text-gray-300'>Royal Media College,Mymensingh-RMC</span></p>
+                <p>Subject:  <span className='text-gray-300'>Science</span></p>
+                <p> GPA: <span className='text-gray-300'>4.42</span></p>
               </div>
             </div>
 
             <div tabIndex={0} className="collapse collapse-open border border-base-300 bg-base-200 hover:bg-base-300 transition-all hover:-translate-y-1 duration-500" data-aos="fade-up">
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title text-xl text-gray-300 font-medium">
                 Secondary School certificate (SSC)
               </div>
               <div className="collapse-content">
-                <p>Institute: <span className='text-white'>Mymensingh Laboratory High School</span></p>
-                <p>Subject: <span className='text-white'>Science</span></p>
-                <p>GPA: <span className='text-white'>3.81</span></p>
+                <p>Institute: <span className='text-gray-300'>Mymensingh Laboratory High School</span></p>
+                <p>Subject: <span className='text-gray-300'>Science</span></p>
+                <p>GPA: <span className='text-gray-300'>3.81</span></p>
               </div>
             </div>
 

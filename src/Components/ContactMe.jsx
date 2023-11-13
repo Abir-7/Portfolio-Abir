@@ -56,7 +56,7 @@ const ContactMe = () => {
                             onSubmit={sendEmail}
                             className='pb-5 bg-base-200 rounded-lg shadow-md card-body'
                         >
-                            <h1 className='pb-2 text-white text-3xl md:text-4xl font-semibold'>How Can We Help</h1>
+                            <h1 className='pb-2 text-gray-300 text-3xl md:text-4xl font-semibold'>How Can We Help</h1>
                             <div className=''>
                                 <div className='form-control'>
                                     <label className='label'>

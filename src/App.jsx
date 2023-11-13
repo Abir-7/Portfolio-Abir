@@ -46,7 +46,7 @@ import { useEffect, useState } from 'react'
 AOS.init()
 
 
-
+import Typewriter from 'react-ts-typewriter'
 
 
 
@@ -181,10 +181,11 @@ function App() {
 
             <div className='flex justify-center w-full text-center md:text-left' data-aos="fade-up">
               <div className='grid gap-6'>
-                <h1 className='text-4xl font-semibold'>hello, It's Me</h1>
-                <h1 className='text-6xl font-bold'>Md. Tazwarul Islam Abir</h1>
-                <h1 className='font-semibold text-4xl'>I'm a Front-End Developer</h1>
-                <a href='resume.pdf' download={'resume.pdf'} className='btn w-2/3 sm:w-2/3 xl:w-1/3 mx-auto md:mx-0 outline outline-offset-4  hover:outline-offset-2 transition-all duration-100 rounded-full bg-white bg-opacity-30 text-white p-2'>Download Resume <FaArrowDown></FaArrowDown></a>
+                <h1 className='text-4xl font-semibold text-gray-300'>Hello, It's Me</h1>
+                <h1 className='text-6xl font-bold text-gray-300'>Md. Tazwarul Islam Abir</h1>
+                <h1 className='font-semibold text-4xl text-gray-300'>I'm a <span className='text-white'> <Typewriter  speed={300}
+        text={["MERN Stack Developer", "Front End Developer", "Web Developer", "ReactJs Developer", "Full Stack Developer"]} loop={true} /></span></h1>
+                <a href='resume.pdf' download={'resume.pdf'} className='btn w-2/3 sm:w-2/3 xl:w-1/3 mx-auto md:mx-0 outline outline-offset-4  hover:outline-offset-2 transition-all duration-100 rounded-full bg-white bg-opacity-30 text-gray-300 p-2'>Download Resume <FaArrowDown></FaArrowDown></a>
               </div>
             </div>
 
@@ -209,7 +210,7 @@ function App() {
       <section className='mb-10' name='skill'>
         <div>
           <div className='flex justify-center mb-10'>
-            <h1 className='text-4xl font-semibold  text-white border-b-2 inline-block p-2 rounded-xl '>Skills & Abilities</h1>
+            <h1 className='text-4xl font-semibold  text-white border-b-2 inline-block p-2 rounded-xl '>Skills & Tools</h1>
           </div>
 
           <div className='grid  lg:grid-cols-3 xl:grid-cols-4 grid-cols-2 gap-5  md:gap-10 mx-2'>
