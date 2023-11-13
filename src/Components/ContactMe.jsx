@@ -108,7 +108,7 @@ const ContactMe = () => {
                     <div className='md:w-3/4 ' data-aos="fade-up" >
                         <div>
                             <div className='mb-10'>
-                                <h1 className='mb-3 text-3xl font-semibold border-l-8 border-white ps-5'>
+                                <h1 className='mb-3 text-3xl font-semibold border-l-8 text-gray-300 border-white ps-5'>
                                     Contact Info
                                 </h1>
 

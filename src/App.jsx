@@ -210,15 +210,15 @@ function App() {
       <section className='mb-10' name='skill'>
         <div>
           <div className='flex justify-center mb-10'>
-            <h1 className='text-4xl font-semibold  text-white border-b-2 inline-block p-2 rounded-xl '>Skills & Tools</h1>
+            <h1 className='text-4xl font-semibold  text-gray-200 border-b-2 inline-block p-2 rounded-xl '>Skills & Tools</h1>
           </div>
 
           <div className='grid  lg:grid-cols-3 xl:grid-cols-4 grid-cols-2 gap-5  md:gap-10 mx-2'>
             {skills.map(skill => <Tilt>
               <div key={skill.name} className='flex flex-col  items-center w-auto md:w-80 card bg-base-200 p-5' data-aos="fade-up">
                 <div className='mb-2'><img width={'100px'} src={skill.img} alt="" /></div>
-                <div className='text-white'>{skill.name}</div>
-                <div className='text-white'>{skill.level?`( ${skill.level} )`:''}</div>
+                <div className='text-gray-300'>{skill.name}</div>
+                <div className='text-gray-300'>{skill.level?`( ${skill.level} )`:''}</div>
               </div>
             </Tilt>)}
           </div>
@@ -235,7 +235,7 @@ function App() {
       <section className='mb-10' name='contact'>
 
         <div className='flex justify-center '>
-          <h1 className='text-4xl font-semibold  text-white border-b-2 inline-block p-2 rounded-xl '>Contact Me</h1>
+          <h1 className='text-4xl font-semibold  text-gray-200 border-b-2 inline-block p-2 rounded-xl '>Contact Me</h1>
         </div>
 
         <ContactMe></ContactMe>

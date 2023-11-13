@@ -10,7 +10,7 @@ const Education = ({person2}) => {
     return (
         <div>
         <div className='flex justify-center mb-10'>
-          <h1 className='text-4xl font-semibold  text-white border-b-2 inline-block p-2 rounded-xl '>About Me</h1>
+          <h1 className='text-4xl font-semibold  text-gray-200 border-b-2 inline-block p-2 rounded-xl '>About Me</h1>
         </div>
 
         <div className='grid lg:grid-cols-2 gap-4 items-center mx-3'>

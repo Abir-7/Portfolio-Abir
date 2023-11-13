@@ -12,7 +12,7 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
         <div>
             <div>
                 <div className='flex justify-center mb-10'>
-                    <h1 className='text-4xl font-semibold  text-white border-b-2 inline-block p-2 rounded-xl '>My Project</h1>
+                    <h1 className='text-4xl font-semibold  text-gray-200 border-b-2 inline-block p-2 rounded-xl '>My Project</h1>
                 </div>
             </div>
 
