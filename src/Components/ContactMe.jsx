@@ -128,7 +128,7 @@ const ContactMe = () => {
                                     <div className='flex items-center gap-4'>
                                         <FaMapMarkerAlt className='text-xl text-white' />
                                         <p>
-                                            Dhanmondi-32, Dhaka <br /> Bangladesh
+                                           35/3 Maskanda, Mymensingh <br /> Bangladesh
                                         </p>
                                     </div>
 
