@@ -6,6 +6,24 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init()
 
+import html from '../assets/skill/html.jpg'
+import css from '../assets/skill/css.jpg'
+import js from '../assets/skill/js.png'
+import react from '../assets/skill/react.png'
+import ex from '../assets/skill/ex.png'
+import mongo from '../assets/skill/mongo.png'
+import redux from '../assets/skill/redux.png'
+import bootstrap from '../assets/skill/bootstrap.png'
+import tailwind from '../assets/skill/tailwind.png'
+import node from '../assets/skill/node.png'
+import next from '../assets/skill/next.png'
+import ts from '../assets/skill/ts.png'
+import vs from '../assets/skill/vs.png'
+import git from '../assets/skill/git.png'
+import jwt from '../assets/skill/jwt.png'
+import fire from '../assets/skill/fire.png'
+
+
 
 const MyProject = ({ p1, p2, p3, p4, p5 }) => {
     return (
@@ -35,6 +53,20 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/Food-Corner-Server" target='_blank'>Server </a></p>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl text-blue-600'><FaReact /></span><a className='link-hover' target='_blank' href="https://foodcorner-2c2d7.web.app/">Live Site</a></p>
                             </div>
+
+                            <div className='flex items-center flex-wrap gap-3 mt-5'>
+                                <img className='w-[30px]'  src={html} alt="" />
+                                <img className='w-[30px]'  src={css} alt="" />
+                                <img className='w-[30px]'  src={tailwind} alt="" />
+                                <img className='w-[30px]'  src={js} alt="" />
+                                <img className='w-[30px]'  src={react} alt="" />
+                                <img className='w-[30px]'  src={redux} alt="" />
+                                <img className='w-[30px] bg-white p-1 rounded-full'  src={node} alt="" />
+                                <img className='w-[30px]'  src={ex} alt="" />
+                                <img className='w-[30px]'  src={mongo} alt="" />
+                                <img className='w-[30px]'  src={jwt} alt="" />
+                                <img className='w-[30px]'  src={fire} alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -54,6 +86,20 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/E-ExaminationPro" target='_blank'>Client </a></p>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/E-ExaminationPro-server" target='_blank'>Server </a></p>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl text-blue-600'><FaReact /></span><a className='link-hover' target='_blank' href="https://e-exampro.web.app/">Live Site</a></p>
+                            </div>
+
+                            <div className='flex items-center flex-wrap gap-3 mt-5'>
+                                <img className='w-[30px]'  src={html} alt="" />
+                                <img className='w-[30px]'  src={css} alt="" />
+                                <img className='w-[30px]'  src={tailwind} alt="" />
+                                <img className='w-[30px]'  src={js} alt="" />
+                                <img className='w-[30px]'  src={react} alt="" />
+                                <img className='w-[30px]'  src={redux} alt="" />
+                                <img className='w-[30px] bg-white p-1 rounded-full'  src={node} alt="" />
+                                <img className='w-[30px]'  src={ex} alt="" />
+                                <img className='w-[30px]'  src={mongo} alt="" />
+                                <img className='w-[30px]'  src={jwt} alt="" />
+                                <img className='w-[30px]'  src={fire} alt="" />
                             </div>
                         </div>
 
@@ -75,6 +121,20 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/Car-Toy-Store-Server" target='_blank'>Server </a></p>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl text-blue-600'><FaReact /></span><a className='link-hover' target='_blank' href="https://car-toys-fcd9d.web.app/">Live Site</a></p>
                             </div>
+
+                            <div className='flex items-center flex-wrap gap-3 mt-5'>
+                                <img className='w-[30px]'  src={html} alt="" />
+                                <img className='w-[30px]'  src={css} alt="" />
+                                <img className='w-[30px]'  src={tailwind} alt="" />
+                                <img className='w-[30px]'  src={js} alt="" />
+                                <img className='w-[30px]'  src={react} alt="" />
+                                <img className='w-[30px]'  src={fire} alt="" />
+                                <img className='w-[30px] bg-white p-1 rounded-full'  src={node} alt="" />
+                                <img className='w-[30px]'  src={ex} alt="" />
+                                <img className='w-[30px]'  src={mongo} alt="" />
+                               
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -94,6 +154,18 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/React-Project-Capture-Camp-Server" target='_blank'>Server </a></p>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl text-blue-600'><FaReact /></span><a className='link-hover' target='_blank' href="https://capture-camp.web.app/">Live Site</a></p>
                             </div>
+                            <div className='flex items-center flex-wrap gap-3 mt-5'>
+                                <img className='w-[30px]'  src={html} alt="" />
+                                <img className='w-[30px]'  src={css} alt="" />
+                                <img className='w-[30px]'  src={tailwind} alt="" />
+                                <img className='w-[30px]'  src={js} alt="" />
+                                <img className='w-[30px]'  src={react} alt="" />
+                                <img className='w-[30px]'  src={jwt} alt="" />
+                                <img className='w-[30px] bg-white p-1 rounded-full'  src={node} alt="" />
+                                <img className='w-[30px]'  src={ex} alt="" />
+                                <img className='w-[30px]'  src={mongo} alt="" />
+                               
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -112,6 +184,17 @@ const MyProject = ({ p1, p2, p3, p4, p5 }) => {
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/BD-Food-Recipe" target='_blank'>Client </a></p>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl'><FaGithubSquare /></span><a className='link-hover' href="https://github.com/Abir-7/BD-Food-Recipe-Server" target='_blank'>Server </a></p>
                                 <p className='flex items-center gap-1'>  <span className='text-2xl text-blue-600'><FaReact /></span><a className='link-hover' target='_blank' href="https://bd-recipes.web.app/">Live Site</a></p>
+                            </div>
+
+                            <div className='flex items-center flex-wrap gap-3 mt-5'>
+                                <img className='w-[30px]'  src={html} alt="" />
+                                <img className='w-[30px]'  src={css} alt="" />
+                                <img className='w-[30px]'  src={tailwind} alt="" />
+                                <img className='w-[30px]'  src={js} alt="" />
+                                <img className='w-[30px]'  src={react} alt="" />
+                                <img className='w-[30px] bg-white p-1 rounded-full'  src={node} alt="" />
+                                <img className='w-[30px]'  src={fire} alt="" />
+                                <img className='w-[30px]'  src={ex} alt="" />
                             </div>
                         </div>
                     </div>

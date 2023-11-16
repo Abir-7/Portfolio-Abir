@@ -22,6 +22,7 @@ import ts from './assets/skill/ts.png'
 import vs from './assets/skill/vs.png'
 import git from './assets/skill/git.png'
 import jwt from './assets/skill/jwt.png'
+import fire from './assets/skill/fire.png'
 
 
 import p1 from './assets/project/p1.png'
@@ -129,6 +130,7 @@ function App() {
     { img: git, name: 'GitHub', level: '' },
     { img: vs, name: 'Vs Code', level: '' },
     { img: jwt, name: 'Json Web Token', level: '' },
+    { img: fire, name: 'Firebase', level: '' },
   ]
 
 
