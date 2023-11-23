@@ -139,7 +139,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >600) {
+      if (window.scrollY > 600) {
         console.log(window.scrollY)
         setIsButtonVisible(true);
       } else {
@@ -157,7 +157,7 @@ function App() {
 
   return (
     <div >
-      <section name='intro'  className='relative'>
+      <section name='intro' className='relative'>
 
         <div className="navbar bg-base-200 mb-10 md:mb-0">
           <div className="navbar-start">
@@ -178,21 +178,21 @@ function App() {
           </div>
         </div>
 
-        <div className='min-h-[85vh] flex items-center mx-2 z-50'>
-          <div className='text-white grid gap-6 md:grid-cols-2 justify-center items-center'>
+        <div className='lg:min-h-[610px] xl:min-h-[650px]  flex items-center  z-50 mx-4'>
+          <div className='text-white grid gap-0.5 md:grid-cols-2 justify-center items-center'>
 
             <div className='flex justify-center w-full text-center md:text-left' data-aos="fade-up">
               <div className='grid gap-6'>
                 <h1 className='text-4xl font-semibold text-gray-300'>Hello, It's Me</h1>
                 <h1 className='text-6xl font-bold text-gray-300'>Md. Tazwarul Islam Abir</h1>
-                <h1 className='font-semibold text-4xl text-gray-300'>I'm a <span className='text-white'> <Typewriter  speed={300}
-        text={["MERN Stack Developer", "Front End Developer", "Web Developer", "ReactJs Developer", "Full Stack Developer"]} loop={true} /></span></h1>
+                <h1 className='font-semibold text-4xl text-gray-300'>I'm a <span className='text-white'> <Typewriter speed={300}
+                  text={["MERN Stack Developer", "Front End Developer", "Web Developer", "ReactJs Developer", "Full Stack Developer"]} loop={true} /></span></h1>
                 <a href='resume.pdf' download={'resume.pdf'} className='btn w-2/3 sm:w-2/3 xl:w-1/3 mx-auto md:mx-0 outline outline-offset-4  hover:outline-offset-2 transition-all duration-100 rounded-full bg-white bg-opacity-30 text-gray-300 p-2'>Download Resume <FaArrowDown></FaArrowDown></a>
               </div>
             </div>
 
-            <div className='flex justify-center mt-10 md:mt-0  h-96 ' data-aos="fade-up">
-              <div className='imageSection w-4/5  h-4/5 md:w-[400px] md:h-[400px] xl:w-[500px] xl:h-[500px] rounded-full  flex justify-center p-5 bg-white bg-opacity-30 shadow-2xl shadow-gray-700'>
+            <div className='flex justify-center mt-10 md:mt-0  ' data-aos="fade-up">
+              <div className='imageSection xl:w-4/6 lg:w-5/6 rounded-full  flex justify-center p-5 bg-white bg-opacity-30 shadow-2xl shadow-gray-700'>
                 <img className='rounded-full ' src={person} alt="" />
               </div>
             </div>
@@ -220,7 +220,7 @@ function App() {
               <div key={skill.name} className='flex flex-col  items-center w-auto md:w-80 card bg-base-200 p-5' data-aos="fade-up">
                 <div className='mb-2'><img width={'100px'} src={skill.img} alt="" /></div>
                 <div className='text-gray-300'>{skill.name}</div>
-                <div className='text-gray-300'>{skill.level?`( ${skill.level} )`:''}</div>
+                <div className='text-gray-300'>{skill.level ? `( ${skill.level} )` : ''}</div>
               </div>
             </Tilt>)}
           </div>
@@ -243,14 +243,14 @@ function App() {
         <ContactMe></ContactMe>
       </section>
 
-         <div className={`bottom-10 fixed right-10 ${isButtonVisible ? 'visible' : 'hidden'}`}>
-         <button className='bg-gray-700 p-3 rounded-full shadow-lg imageSection2 '><Link  
+      <div className={`bottom-10 fixed right-10 ${isButtonVisible ? 'visible' : 'hidden'}`}>
+        <button className='bg-gray-700 p-3 rounded-full shadow-lg imageSection2 '><Link
           to="intro"
           smooth={true}
           offset={-50}
           duration={500}
-         ><FaArrowUp></FaArrowUp></Link></button>  
-         </div>
+        ><FaArrowUp></FaArrowUp></Link></button>
+      </div>
     </div>
   )
 }
