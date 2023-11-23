@@ -191,8 +191,8 @@ function App() {
               </div>
             </div>
 
-            <div className='flex justify-center mt-10 md:mt-0  ' data-aos="fade-up">
-              <div className='imageSection w-4/5 rounded-full  flex justify-center p-5 bg-white bg-opacity-30 shadow-2xl shadow-gray-700'>
+            <div className='flex justify-center mt-10 md:mt-0  h-96 ' data-aos="fade-up">
+              <div className='imageSection w-4/5  h-4/5 md:w-[400px] md:h-[400px] xl:w-[500px] xl:h-[500px] rounded-full  flex justify-center p-5 bg-white bg-opacity-30 shadow-2xl shadow-gray-700'>
                 <img className='rounded-full ' src={person} alt="" />
               </div>
             </div>
