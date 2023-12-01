@@ -196,7 +196,7 @@ function App() {
                 <img className='rounded-full ' src={person} alt="" />
               </div>
             </div>
-
+            
           </div>
         </div>
 
